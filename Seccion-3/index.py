@@ -1,5 +1,24 @@
-# Variables y tipos de datos
+print("Hola mundo")
 
-tax = 12.5 / 100
-price = 100.50
-print(price * tax)
+nombre = "Sofia Ailen"
+edad = 26
+
+print(nombre)
+print(edad + 1)
+
+
+datos = nombre, edad
+
+print(datos)
+
+print(nombre, edad)
+print('Nombre: ', nombre)
+print('Edad: ', edad)
+
+print(f'Nombre: {nombre} \nEdad: {edad}')
+
+"""Comentario
+de 
+multiples 
+lineas
+"""

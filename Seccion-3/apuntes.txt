@@ -11,3 +11,43 @@ Variables y Datos:
 10. Entrada de Datos
 11. Casting de Datos
 12. Practicas de seccion
+
+
+
+# Variables y tipos de datos
+
+# Numeros
+# El interprete puede utilizarse como una simple calculadora; puedes introducir una expresion en él y este escribira los valores. La sintaxis es sencilla: los operadores + - * / funcionan como en la mayoria de los lenguajes, los (parentesis) pueden ser usados para agrupar.
+print(2 + 2)
+print(50 - 5 * 6)
+print((50 - 5 * 6) / 4)
+
+print(8 / 5) # la division ( / ) siempre retorna un numero decimal de punto flotante. Para hacer floor division y obtener un numero entero como resultado debe usarse el operador //; para calcular el resto puede usarse %
+
+
+tax = 12.5 / 100
+price = 100.50
+print(price * tax)
+
+Los numeros enteros (ej: 2, 4 ,6) tienen tipo int, los que tienen una parte fraccionaria (por ejemplo 5.0, 1,1) tienen el tipo float.
+
+4. Cadenas de Caracteres
+Ademas de numeros, Python puede manipular cadenas de texto, las cuales pueden ser expresadas de distitnas formas. Pueden estar encerradas en comillas simples (' ') o dobles (" ") con el mismo resultado
+
+--------Listas --
+Python tiene varios tipos de datos compuestos, utilizados para agrupar otros valores. El mas versatil es la lista, la cual puede ser escrita como una lista de valores separados por coma (items) entre corchetes. Las listas pueden contener items de diferentes tipos, pero usualmente los items son del mismo tipo.
+
+squares = [1, 4, 6, 12]
+
+squares[0]
+nos mostrara el primer elemento ej: 1
+
+squares[-1]
+nos mostrara el ultimo elemento ej: 12
+
+las listas son mutables
+squares[1] = 2
+[1, 2, 6, 12]
+
+para saber cuantos elementos tiene mi lista:
+len(squares) --> 4
