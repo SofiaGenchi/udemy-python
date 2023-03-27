@@ -1,0 +1,13 @@
+Variables y Datos:
+1. Interprete de Python
+2. Variables
+3. Variables y tipos de Datos
+4. Cadena de caracteres
+5. Operaciones con cadenas
+6. Listas
+7. Primer programa
+8. Concatenacion
+9. Comentarios
+10. Entrada de Datos
+11. Casting de Datos
+12. Practicas de seccion
