@@ -1,0 +1,29 @@
+Colecciones de datos
+
+--. Mas sobre Listas
+datos = ["alex", 25, "arg"]
+
+datos
+["alex", 25, "arg"]
+
+datos.append("roel")
+datos
+["alex", 25, "arg", "roel"] --- lo agrega al final de la lista 
+
+datos.insert(0, "sofia") primero elijo la posicion y despues lo que voy a agregar
+
+datos
+["sofia", "alex", 25, "arg", "roel"]
+
+datos.remove("sofia") --remueve aquel elemento tal cual lo defini
+
+datos.pop() elimina el ultimo elemento de la lista
+
+datos.clear() elimina todos los elementos de la lista
+--. Pila con Listas
+--. Cola en python
+--. Tupla
+--. Diccionario
+--. Conjuntos
+--. Instruccion DEL
+--. Practica de seccion
