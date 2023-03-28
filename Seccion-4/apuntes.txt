@@ -69,5 +69,30 @@ texto1 is texto2    (False)
 
 para decir si no es verdadero
 texto1 is not texto2    (True)
+
+sirve para comparar objetos, para saber si son identicos o 
+si no son identicos
+
 ---Operadores en Pertenencia---
+si pertenece o no pertenece un elemento a una lista un objeto
+
+texto = "hola mundo"
+'H' in texto    (False)
+'h' in texto    (True)
+
+nombres = ["Sofia", "Ailen", 26]
+
+26 in nombres   (True)
+"Martin" in nombres (False)
+"Juan" not in nombres   (True)
+
 ---Operadores con Booleanos---
+type bool
+
+True vale 1
+False vale 0
+
+True > False
+(True)
+True < False
+(False)

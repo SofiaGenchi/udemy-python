@@ -1,0 +1,55 @@
+                    --- Estructuras de Control ---
+
+    -.- Condicion IF - ELSE -.-
+
+    -.- Condiciones Anidadas -.-
+Un if dentro de otro if
+Aplicacion 01
+
+    -.- Multiples Condiciones Elif -.-
+v = input("Ingrese un caracter: ")
+
+if v == "a" or v == "A":
+    print(v, "es una vocal")
+elif v == "e" or v == "B":
+    print(v, "es una vocal")
+etc etc etc
+else:
+    print(v, "no es una vocal")
+
+    -.- Bucle While -.-
+
+c = 0
+
+while c < 10:
+    c += 1
+    print("Valor de c", c)
+
+
+
+    -.- Bucle For -.-
+datos = ["alex", "roel", 25, 1.67, True]
+
+for dato in datos:
+    print(dato)
+
+
+c = 0
+while c < len(datos):
+    print(datos[c])
+    c += 1
+
+
+    -.- Break y Continue -.-
+c = 0
+
+while c < 10:
+    c += 1
+    print(c)
+
+    if c == 5:
+        print("Termina el bucle")
+        break
+imprime de 0 hasta 10 (1 y 10 incluidos)
+else:
+    print("Fin de While")
