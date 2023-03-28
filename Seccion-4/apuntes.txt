@@ -1,0 +1,73 @@
+Operadores en Python
+
+---Operadores Relacionales---
+Coparar dos valores:
+a = 10
+b = 5
+
+a == b (False)
+a == a (True)
+
+a != b (True)
+
+a > b (True)
+a < b (False)
+
+a >= b (True)
+a <= b (False)
+
+
+---Operadores Logicos---
+Compara valores Booleanos
+
+not True (False) -- estoy negando al True
+not False (True) -- devuelve el valor contrario
+
+True and True (True)
+True and False (False) -- devuevel false porque uno de ellos es falso
+False and False ( False) 
+
+True or False (True) -- uno de los dos tiene que ser True para que devuelva True
+False or False (False)
+
+
+---Expresiones Anidadas---
+a = 10
+b = 5
+
+a * b - 2 ** b >= 20 and not(a % b) != 0
+(False)
+
+
+---Operadores en Asignacion---
+a = 10
+a = a + 5
+(15)
+se puede simplificar
+
+a = 10
+    a += 5
+si llamo a (a) ahora vale 15
+
+---Operadores Incremento y Decremento---
+c = 0
+
+c += 1
+(1)
+
+c -= 1
+(0)
+
+
+---Operadores de Identidad---
+si es o no es verdadero
+
+texto1 = "hola"
+texto2 = "hola"
+
+texto1 is texto2    (False)
+
+para decir si no es verdadero
+texto1 is not texto2    (True)
+---Operadores en Pertenencia---
+---Operadores con Booleanos---
