@@ -1,0 +1,10 @@
+FUNCIONES:
+
+-.-Definir una funcion
+-.-Funcion con retorno
+-.-Parametro y Argumentos
+-.-Argumentos indefinidos
+-.-Funcion recursiva
+-.-Lambdas
+-.-Funciones Integradas
+-.-Metodo de cadenas
