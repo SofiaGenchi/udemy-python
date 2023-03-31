@@ -21,6 +21,6 @@ reemplazar = a.replace('H', 'S')
 print(reemplazar)
 
 
-espacios = '    Hola    Mundo'
+espacios = '   Hola Mundo'
 borrar_espacios = espacios.strip()
 print(borrar_espacios)
