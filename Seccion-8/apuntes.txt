@@ -1,0 +1,11 @@
+MINI APLICACIONES CON PYTHON
+
+-.-Palindromo
+
+-.-Primalidad
+
+-.-Generador de contraseñas
+
+-.-Conversor de monedas
+
+-.-Juego adivina
