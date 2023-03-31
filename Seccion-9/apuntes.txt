@@ -1,0 +1,18 @@
+MODULARIZACION:
+Dividir el programa en diferentes partes modulos / archivos.
+Separar los modulos / archivos en paquetes.
+
+-.- Reutilizar
+-.- Evitar Colapsos
+-.- Mantenible
+-.- Legibilidad
+-.- Solucion rapida de Problemas
+
+-Crear Modulo 
+-Formas de importar Modulos 
+-Entrada desde Script
+-Formateo de informacion
+-Funcion DIR 
+-Modulo Math 
+-Modulo Datetime
+-Paquetes en Python
